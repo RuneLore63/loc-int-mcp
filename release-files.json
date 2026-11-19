@@ -1,0 +1,17 @@
+[
+  "src",
+  "scripts",
+  "examples",
+  "launch-brave-mcp-profile.ps1",
+  "launch-chrome-mcp-profile.ps1",
+  "lmstudio-mcp.example.json",
+  "package.json",
+  "package-lock.json",
+  "README.md",
+  "LICENSE",
+  ".gitignore",
+  "release-files.json",
+  "docs/LM-STUDIO.md",
+  "docs/SECURITY.md",
+  "docs/RELEASING.md"
+]

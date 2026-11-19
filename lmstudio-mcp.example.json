@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "local-internet": {
+      "command": "node",
+      "args": [
+        "C:/MCP/loc-int-mcp/src/loc-int-mcp.mjs"
+      ],
+      "env": {
+        "MCP_BROWSER_DEBUG_PORT": "9222"
+      }
+    }
+  }
+}

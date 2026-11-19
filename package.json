@@ -1,0 +1,45 @@
+{
+  "name": "loc-int-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Web retrieval, search and optional Windows speech MCP server for LM Studio.",
+  "scripts": {
+    "start": "node src/loc-int-mcp.mjs",
+    "check": "node --check src/loc-int-mcp.mjs",
+    "smoke": "node scripts/smoke-test.mjs",
+    "smoke:web": "node scripts/smoke-test.mjs --web",
+    "smoke:search": "node scripts/smoke-test.mjs --search",
+    "smoke:browser": "node scripts/smoke-test.mjs --browser",
+    "release": "node scripts/build-release.mjs",
+    "test": "node scripts/smoke-test.mjs",
+    "test:web": "node scripts/smoke-test.mjs --web --search"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.0"
+  },
+  "author": "RuneLore63",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "examples",
+    "launch-brave-mcp-profile.ps1",
+    "launch-chrome-mcp-profile.ps1",
+    "lmstudio-mcp.example.json",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE",
+    ".gitignore",
+    "release-files.json",
+    "docs/LM-STUDIO.md",
+    "docs/SECURITY.md",
+    "docs/RELEASING.md",
+    "RELEASE-MANIFEST.json"
+  ]
+}

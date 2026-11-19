@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+config.json
+.env
+.env.*
+!.env.example
+logs/
+captures/
+downloads/
+browser-profile*/
+releases/
+STOP
+*.log
